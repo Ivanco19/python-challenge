@@ -2,7 +2,7 @@
 import csv, os
 
 # Filepath of our database
-file_path = os.path.join('.','PyBank\Resources', 'budget_data.csv')
+file_path = os.path.join('.','Resources', 'budget_data.csv')
 
 with open(file_path) as budget:
     csv_iterable = csv.reader(budget)
