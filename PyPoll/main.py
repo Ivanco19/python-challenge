@@ -2,7 +2,7 @@
 import csv, os
 
 # Filepath of our database
-file_path = os.path.join('.','PyPoll\Resources', 'election_data.csv')
+file_path = os.path.join('.','Resources', 'election_data.csv')
 
 with open(file_path) as my_file:
     csv_iterable = csv.reader(my_file)
